@@ -1,3 +1,4 @@
+> - ### 仓库主页：[仓库主页](https://github.com/KPI0/fuck-Ads/)
 > # [![image](https://s2.loli.net/2022/09/13/FrBnD6HZML2Ald5.png)](https://github.com/gorhill/uBlock/) uBlock Origin
 > - ### uBlock Origin 扩展程序_源码地址：[uBlock](https://github.com/gorhill/uBlock/)
 > - ### uBlock Origin 扩展程序_安装地址：[Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/ublock-origin/odfafepnkmbhccpbejgmiehpchacaeak/)、                      [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm/)、                                                                             [Firefox](https://addons.mozilla.org/zh-CN/firefox/addon/ublock-origin/)、                                                                                                       [Opera](https://addons.opera.com/zh-cn/extensions/details/ublock/)
