@@ -12,6 +12,6 @@ https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
 https://raw.githubusercontent.com/tekintian/hosts_ads_block/master/mobile/hosts  
 https://raw.githubusercontent.com/vokins/yhosts/master/hosts  
 https://raw.githubusercontent.com/yous/YousList/master/hosts.txt
-https://ghproxy.com/https://raw.githubusercontent.com/Goooler/1024_hosts/master/hosts
 
+[仓库主页](https://github.com/Goooler/1024_hosts)
 另外发现这些 hosts 有部分误伤，建议将 whitelist 中规则加入白名单
