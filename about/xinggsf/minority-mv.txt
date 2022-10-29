@@ -1,0 +1,174 @@
+[Adblock Plus 2.0]
+! Title: 乘风 小众视频过滤规则
+! Version: 202210231
+! Expires: 1 day
+! Homepage: https://bbs.kafan.cn/thread-1866845-1-1.html
+
+##a.disabled
+
+iqiyi.com##.detail-sd, .qy-search~*
+! 禁用AI奇观
+iqiyi.com##+js(set, Object.prototype.isSupportAI, false)
+||security.iqiyi.com/static/cook/v1/cooksdk.js
+||stc.iqiyipic.com/js/sdkpack/vippay.js
+||stc.iqiyipic.com/js/sdkpack/barrage
+! 要用弹幕注释下条规则
+||t7z.cupid.iqiyi.com/show$script,important
+
+! le.com
+gentags.net
+gtags.net
+||webrtc.github.io^$script,3p
+
+v.youku.com##.vip_info,#uerCenter,#youkubarrage-controller,li.fn-phonewatch
+||acs.youku.com/h5/mopen.youku.danmu.
+
+www.bilibili.com##+js(set,Sentry.init,noopFunc)
+||api.bilibili.com/x/click-interface/click/$xhr
+chat.bilibili.com
+||hdslb.com/bfs/seed/jinkela/short/cols/iframe.html$subdocument
+||bilibili.com/page-proxy/game-nav.html$subdocument
+||www.bilibili.com^$doc,queryprune=~p
+|https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js
+
+v.qq.com##.wrapper.mod_vip_popup, #mask_layer
+||v.qq.com/$subdocument
+||video.qq.com/getcookie/cookie.html$subdocument
+||mfm.video.qq.com/danmu
+dm.video.qq.com
+||video.qq.com/danmu_manage/$xhr
+!||ra.gtimg.com/web/crystal/v*/crystal-min.js$script
+tv.sohu.com###qflivetg,div.right>.adv
+
+www.douyu.com##.is-fullScreenPage .ToTopBtn, div.layout-Player~*, .multiBitRate-da4b60, .watermark-442a18, .player-dialog~*, .ChargeTask+div, .HeaderGif-right, .HeaderGif-left,#js-room-activity
+||qvb.qcloud.com/$domain=www.douyu.com
+|https://sta-op.douyucdn.cn/front-publish/butterfly-
+butterfly.douyucdn.cn
+gift.douyucdn.cn
+rank.douyucdn.cn
+||shark2.douyucdn.cn/front-publish/live-landlordsactivity-
+||shark2.douyucdn.cn/front-publish/live-luckybaggift-activity-master/
+||shark2.douyucdn.cn/front-publish/live-festivalactivity-
+||shark2.douyucdn.cn/front-publish/live-master/js/room/activity_
+||shark2.douyucdn.cn/front-publish/live-cloud-game-master/
+||shark2.douyucdn.cn/front-publish/live-game-guess-master/
+||webconf.douyucdn.cn/resource/common/gift
+danmuproxy.douyu.com
+wsproxy.douyu.com
+
+m.huya.com##video:style(object-fit:fill!important)
+m.huya.com##.video-con:style(height:100vh!important;padding:0!important;position:static!important;)
+m.huya.com##.ssr-wrapper>:not(.live-wrap)
+www.huya.com##.room-footer,#player-subscribe-wap,#player-gift-wrap,#huya-ab, .player-banner-gift,#player-marquee-wrap
+|https://a.msstatic.com/huya/main3/assets/img/room/gift/$important
+|https://a.msstatic.com/huya/main3/assets/css/room/gift_$important
+|https://a.msstatic.com/huya/main3/modules/chat$important
+|https://a.msstatic.com/huya/main3/modules/gift/$important
+!||va.huya.com^$websocket
+!||p2p.huya.com/huyalive/$websocket,xhr
+zhanqi.tv##.chat-gg-area,a[href*="/ad.click?"]
+
+*.gif|$image,domain=91meijuw.com|acgndmku.com|bimiacg4.net|duboku.su|tvyb03.com|hxys.tv|kuhuiv.com|olehd.com|olevod.*|xb15.cc
+! https://www.xyhdm.cc/ 禁用左右快捷键 nangua99.com,xxdm2.com##+js(set,jQuery.fn.keydown,trueFunc)
+88hd.com,91meijuw.com,tvyb03.com,vidhub.cc,vidhub.top##a[target=_blank][href^=http]
+www.bashiyy.com,gdzidong.com,huaxingui.com,momdm5.cc,momovod.tv,piankuw.cc##.dplayer-web-fullscreen-fix #player-sidebar-is
+
+! 2022-06-11 https://www.555kyy.com
+||hdslb.com/bfs/album/$image,domain=555kyy.com|555dsv.com|666ye.com
+||1256964.com^$image
+! 2022-08-03 https://www.666ye.com/index.php/vod/play/id/13320/sid/1/nid/4.html
+||img.jcbdfyy.cn/upload/vod/$image
+
+! 91meijuw.com##.dplayer:not(.dplayer-fulled):style(height:600px!important)
+91meijuw.com##.detail-content~p
+ejktj.com
+||www.91meijuw.com/template/pingg_tpl/images/$image
+||bibilm.com^$script,3p
+bimiacg4.net##.tuiguang,#bkcl
+
+!巴适影院 www.gdzidong.com www.bashiyy.com
+||bashiyy.com/static/js/plugin.js^$script
+||gdzidong.com/static/js/plugin.js^$script
+qrserver.com
+
+www.citydy.com##.dplayer-web-fullscreen-fix .player-right, .dplayer-web-fullscreen-fix #player-shrink,#citybanner
+xg.jiezoiq.cn
+||fds.api.mi-img.com^$image,domain=~mi.com
+eqlidke.cn
+
+dm233.cc##.playleft:style(height:620px!important)
+dm233.cc###dh-box:style(left:96vw!important;margin-left:0!important;)
+
+||ddrk.me/vjs-plugins/videojs.das.min.js^$script
+
+!樱花动漫 http://www.imomoe.jp/
+dmh8.com##body>a
+dmh8.com##+js(acis,document.writeln)
+f77j6t2b.com
+yrqwnc.cn
+! https://www.yaliyy.com/play/132772-0-0.html
+
+eacg.net##+js(set, devtoolsDetector, {})
+!|https://cdn.jsdelivr.net/gh/k8dmss/dongman/js/devtools-detector.js
+linjuyihao.com
+
+huihev.com##+js(ra,oncontextmenu|onselectstart|ondragstart|onsource,body)
+||huihev.com/template/hstz.js$script
+||huihev.com/template/hepc2/img/dashang.gif$image
+
+kelatv.com##a[href*="/go.php"]
+! https://ikandy.fun/vodplay/87548-1-1/
+|https://x.mmiyue.com/x/statics/js/fuck-debugger.js^$script
+x.mmiyue.com##+js(set,killAdKiller,noopFunc)
+
+z1.m1907.cn,nxflv.com##+js(noeval-if, pushState)
+! https://www.nivod.tv/
+nivod.tv###adltop
+||nivod.tv/image/ad$image
+
+novipnoad.com##.bg-ad
+olevod.com##.bg_wtop_banner, .guangao, a[data-ab-css-background]
+||olevod.com/upload/site/20$image
+
+pangzitv.com##+js(acis,document.getElementById,initAd)
+pangzitv.com###pop
+||pangzitv.com/template/*/js/ads3.js
+
+! 片库网 https://www.btnull.org/py/aGrpO_5.html?164514
+! btnull.*##+js(set,pycount,0)
+! btnull.*##+js(set,jQuery.fn.getScript,noopFunc)
+||btnull.in/ajax/historys/
+||btnull.re/ajax/historys/
+||btnull.org/ajax/historys/
+! 趣动漫
+www.qdm8.com##.close-box.tips
+www.qdm8.com##body:style(background-image:none!important)
+
+qiqidongman.com##.flash-check-box, .AACC2,#rela_f
+! 2022-01-23 https://www.sbdm.net
+@@||a.yximgs.com/bs2/ad-$media,domain=sbdm.net
+
+! 垃圾、evil站点，有钓鱼嫌疑
+tangrenjie.tv
+
+www.ttsp.tv###playad1
+||img.imyyds.com/upload/vod/20211222-2/$image
+||img.imyyds.com/adimges/$image
+
+! TVB云播 HK 港台影视
+tvyb03.com###hth
+||pic.rmb.bdstatic.com/$image,domain=tvyb03.com
+||cfimg.cnyuncdn.com/0$image,domain=tvyb03.com
+tvyb03.com##+js(acis,document.writeln)
+
+vidhub.cc,vidhub.top###player_pause
+vidhub.cc,vidhub.top##.MacPlayer:style(height:630px!important)
+||vidhub.cc/upload/art/rgsp-$image
+||vidhub.cc/player/buffer.html$subdocument
+||vidhub.top/player/buffer.html$subdocument
+wsdy.top##+js(set,fed.module,{})
+kowqd3.top
+zhuaijiong.cn
+
+yhdm.nl###x-play:style(height:600px)
+yhdm.nl###x-play::before
