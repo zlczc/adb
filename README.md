@@ -14,7 +14,7 @@
 - [ChinaListV2.0](https://raw.githubusercontent.com/tickmao/ADrules/master/ChinaList2.0.txt)
 - [anti-AD](https://raw.githubusercontent.com/tickmao/ADrules/master/anti-AD.txt)       
 - [HalfLife](https://raw.githubusercontent.com/tickmao/ADrules/master/HalfLife.txt)
-- [EasyList](https://raw.githubusercontent.com/tickmao/ADrules/master/EasyList.txt)
+- [EasyList](https://raw.githubusercontent.com/tickmao/ADrules/master/Easylist.txt)
 - [EasyList China](https://raw.githubusercontent.com/tickmao/ADrules/master/EasyListChina.txt)
 
 其他规则作为备选，目前已足够应付日常所需。
