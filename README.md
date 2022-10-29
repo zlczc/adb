@@ -1,6 +1,8 @@
 # ADrules
 广告过滤规则
 
+[仓库主页](https://github.com/tickmao/ADrules)
+
 主要是汇总日常觉得比较优秀的广告过滤规则，为保证链接可用，避免失效。
 
 规则保留原出处，感兴趣可以去原作者那里进行交流，感谢这么多优秀的人。
@@ -9,11 +11,11 @@
 
 本人日常主要是使用：
 
-- ChinaListV2.0
-- anti-AD
-- HalfLife
-- EasyList
-- EasyList China
+- [ChinaListV2.0](https://raw.githubusercontent.com/tickmao/ADrules/master/ChinaList2.0.txt)
+- [anti-AD](https://raw.githubusercontent.com/tickmao/ADrules/master/anti-AD.txt)       
+- [HalfLife](https://raw.githubusercontent.com/tickmao/ADrules/master/HalfLife.txt)
+- [EasyList](https://raw.githubusercontent.com/tickmao/ADrules/master/EasyList.txt)
+- [EasyList China](https://raw.githubusercontent.com/tickmao/ADrules/master/EasyListChina.txt)
 
 其他规则作为备选，目前已足够应付日常所需。
 
