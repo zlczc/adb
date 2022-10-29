@@ -1,3 +1,5 @@
+- [仓库主页](https://github.com/sbwml/halflife-list)
+
 ## ABP/ublock订阅规则
 - ad-pc.txt：[推荐桌面端]合并自乘风视频广告过滤规则、Easylist、EasylistChina、EasyPrivacy、CJX'sAnnoyance，以及补充的一些规则；
   ```html
